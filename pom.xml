@@ -5,8 +5,8 @@
 
 	<groupId>br.com.medicalclinic</groupId>
 	<artifactId>medicalClinic</artifactId>
-	<version>01.00.00-00-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<version>01.00.00-00</version>
+	<packaging>war</packaging>
 
 	<name>medicalClinic</name>
 	<description>API medical clinic.</description>
