@@ -24,7 +24,7 @@ import br.com.medicalclinic.services.SpecialtyService;
 
 @RestController
 @CrossOrigin
-@RequestMapping(value = "/medicalClinic/specialties", produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE })
+@RequestMapping(value = "/specialties", produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE })
 public class SpecialtyResources {
 
 	@Autowired
