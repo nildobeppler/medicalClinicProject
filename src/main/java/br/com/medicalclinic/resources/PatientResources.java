@@ -22,7 +22,7 @@ import br.com.medicalclinic.domain.Patient;
 import br.com.medicalclinic.services.PatientService;
 
 @RestController
-@RequestMapping(value = "/patients", produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE })
+@RequestMapping(value = "/medicalClinic/patients", produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE })
 public class PatientResources {
 
 	@Autowired
