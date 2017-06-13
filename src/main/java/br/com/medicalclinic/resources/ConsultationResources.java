@@ -11,6 +11,7 @@ import org.springframework.http.CacheControl;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -55,6 +56,7 @@ public class ConsultationResources {
 	}
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+	@CrossOrigin
 	public ResponseEntity<Void> delete(@PathVariable("id") Long id) {
 		consultationService.delete(id);
 		return ResponseEntity.noContent().build();
